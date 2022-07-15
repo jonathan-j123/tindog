@@ -4,11 +4,13 @@ font-family: 'Ubuntu', sans-serif; */
 
 body {
   font-family: Montserrat;
+  text-align: center;
 }
 /* Navigation Bar */
 #title {
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
 }
 
 .navbar-brand {
@@ -29,7 +31,6 @@ body {
 }
 
 h1 {
-  font-family: "Montserrat-Black", sans-serif;
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
@@ -51,14 +52,12 @@ h3 {
 /* Features Section */
 #features {
   padding: 7% 15%;
-  text-align: center;
   background-color: #fff;
   margin-top: -15%;
   position: relative;
 }
 
 h3 {
-  font-family: "Montserrat";
   font-weight: 700;
   font-size: 1.5rem;
 }
@@ -79,7 +78,6 @@ P {
 /* Testimonial sections */
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -91,7 +89,6 @@ P {
 }
 
 #press {
-  text-align: center;
   background-color: #ef8172;
   padding: 3%;
 }
@@ -109,9 +106,46 @@ P {
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* Call to Action Section */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+#cta h3 {
+  color: white;
+  font-weight: 900;
+  font-size: 3rem;
+  padding: 7% 15%;
+}
+
+/* footer sections  */
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+#footer i {
+  margin-bottom: 1.5rem;
+}
+
+#footer p {
+  color: gray;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+  .header-img {
+    transform: rotate(0);
+  }
+  #features {
+    margin-top: 0;
+  }
 }
