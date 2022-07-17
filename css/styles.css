@@ -6,6 +6,17 @@ body {
   font-family: Montserrat;
   text-align: center;
 }
+
+/* selectors */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
 /* Navigation Bar */
 #title {
   background-color: #ff4c68;
@@ -114,7 +125,6 @@ P {
 
 /* Call to Action Section */
 #cta {
-  background-color: #ff4c68;
   padding: 7% 15%;
 }
 #cta h3 {
